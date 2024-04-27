@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+  </head>
+  <body> 
+    <div class="user">
+      <div class="header">
+          <h1>No Nonsense News</h1>
+      </div>
+      <div class="article">
+        <a href="{{article.link}}"><h2>{{article.title}}</h2></a>
+        <h3>{{article.authors}}</h3>
+        <p class="summary">{{article.summary}}</p>
+        <p>{{article.date_published}}</p>
+      </div>
+      <div class="actionbar">
+        <button type="button" class="button signup" onclick="location.href='/deletesession/{{session[0]}}'">End Session</button>
+        <button type="button" class="button signup" onclick="location.href='/session/{{session[0]}}'">Go Back to Article List</button>
+      </div>
+    </div>
+  </body>
+</html>

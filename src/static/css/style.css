@@ -1,0 +1,165 @@
+body {
+  background: #073b4c;
+  color: #eae2b7;
+  height: 97vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: unset;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 3.5em;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.header h4 {
+  margin: 0;
+}
+
+.form {
+  max-width: 50%;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form form {
+  border: solid;
+  border-color: #f77f00;
+  border-radius: 8px;
+  padding: 50px 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form form input {
+  font-size: 1.2em;
+  margin: 10px;
+  border: solid;
+  border-width: 1px;
+  text-align: center;
+  color: #eae2b7;
+  background: #00000000;
+}
+
+h1 {
+  font-size: 4.5em;
+  color: #ef476f;
+  margin: 0;
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+}
+
+.buttons {
+  padding: 40px 0px;
+}
+
+.button {
+  color: #eae2b7;
+  border: solid;
+  border-radius: 8px;
+  font-size: 1.3em;
+  background: #00000000;
+  margin: 10px;
+  padding: 10px;
+}
+
+.signin {
+  color: #073b4c!important;
+  border-color: #eae2b7!important;
+  border: none!important;
+  background-color: #f77f00!important;
+}
+
+.login {
+  border-color: #f77f00;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  max-height: 100vh;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+.interaction_area{
+  flex-grow: 1;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+}
+
+.newslist {
+  width: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: row;
+}
+
+.newslist-column {
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 10px;
+  background: #ffffff22;
+  margin: 10px;
+}
+
+.card p{
+  font-size: 0.85em;
+  margin: 0px;
+}
+
+.newsarea {
+  border: 1px solid #000;
+  width: 50%;
+}
+
+.user .button {
+  font-size: 0.75em;
+}
+
+.summary {
+  font-size: 1.1em;
+}
